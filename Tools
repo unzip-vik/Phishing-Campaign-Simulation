@@ -7,3 +7,6 @@ sudo apt update && sudo apt upgrade && sudo apt install git && sudo apt -f insta
 To start zphisher, run the zphisher.sh script located in the zphisher folder.
 
 To run SET toolkit, just run "sudo setoolkit".
+
+https://github.com/htr-tech/zphisher
+https://github.com/trustedsec/social-engineer-toolkit
