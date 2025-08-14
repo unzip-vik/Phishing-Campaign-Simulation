@@ -1,1 +1,8 @@
-Bash script for downloading required tools.
+Bash script for downloading required tools (Zphisher, SET toolkit).
+
+//////////////////////
+#!/bin/bash
+sudo apt update && sudo apt upgrade && sudo apt install git && sudo apt -f install && git clone https://github.com/rapid7/metasploit-framework.git && git clone https://github.com/trustedsec/social-engineer-toolkit && git clone --depth=1 https://github.com/htr-tech/zphisher.git
+//////////////////////
+
+After installing the required tools, run them as per the main README.Tools
